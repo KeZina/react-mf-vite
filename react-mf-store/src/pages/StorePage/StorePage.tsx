@@ -11,7 +11,7 @@ import { StoreList } from "../../widgets/StoreList";
 
 export const StorePage = () => {
   const profile: any = useProfileStore((state: any) => state.profile);
-
+  console.log(2);
   return (
     <Page>
       <Content>
